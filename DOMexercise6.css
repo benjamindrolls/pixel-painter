@@ -1,0 +1,18 @@
+.container {
+    /* border: solid 1px black; */
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+    border: solid 1px black;
+    
+}
+
+/* body {
+    
+    display: flex;
+    justify-content: center;
+} */
