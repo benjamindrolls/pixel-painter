@@ -1,18 +1,30 @@
 .container {
-    /* border: solid 1px black; */
     display: inline-grid;
     grid-template-columns: auto auto auto auto auto auto auto auto;
+    
+}
+
+.brush {
+    height: 8vh;
 }
 
 .square {
+    background-color: white;
     height: 50px;
     width: 50px;
     border: solid 1px black;
     
 }
 
-/* body {
-    
+body {
+    background-color: #5B1865;
+}
+
+h1 {
     display: flex;
     justify-content: center;
-} */
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    color: #5688C7;
+}
+
